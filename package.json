@@ -1,0 +1,26 @@
+{
+  "name": "tidy",
+  "version": "0.0.1",
+  "description": "Wrapper for tedious and exposes a simple interface",
+  "main": "index.js",
+  "dependencies": {
+    "tedious": "^8.2.0",
+    "tslint-config-airbnb": "^5.11.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.3.0",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "mssql",
+    "tedious",
+    "tidy"
+  ],
+  "author": "Chris Mipi",
+  "license": "MIT"
+}
